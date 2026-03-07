@@ -1,4 +1,4 @@
-# Projeto-Dio-Tradutor de artigos Técnicos
+# Projeto Dio - Tradutor de artigos Técnicos
 Criação de um tradutor de arquivos web, de inglês para português, utilizando o o serviço OpenAI do Azure
 
 # Análise Automatizada de Documentos com Azure AI
@@ -10,6 +10,14 @@ Criação de um tradutor de arquivos web, de inglês para português, utilizando
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
 Projeto completo para análise automatizada de cartões de crédito usando **Azure Document Intelligence**, **Azure Blob Storage** e uma interface Web construída com **Streamlit**.
+
+---
+## Tecnologias Utilizadas
+- **Python 3.10+**
+- **Azure Blob Storage**
+- **Azure Document Intelligence** (modelo *prebuilt-creditCard*)
+- **Streamlit**
+- **dotenv** para variáveis de ambiente
 
 ---
 ## Funcionalidades
@@ -67,50 +75,6 @@ streamlit run app.py
 ```
 
 ---
-## Licença
-Este projeto está sob a licença **MIT**.
-
-#PARTE DOIS DO COPILOT
-# Análise Automatizada de Documentos com Azure AI
-
-![Static Badge](https://img.shields.io/badge/STATUS-ATIVO-green)
-![Static Badge](https://img.shields.io/badge/AZURE-Document%20Intelligence-blue)
-![Static Badge](https://img.shields.io/badge/STREAMLIT-WebApp-orange)
-![Static Badge](https://img.shields.io/badge/PYTHON-3.10+-yellow)
-
-Este projeto demonstra uma solução completa para análise automatizada de documentos com foco em identificação de possíveis fraudes em **cartões de crédito**, utilizando Azure Document Intelligence, Azure Blob Storage e uma interface desenvolvida em Streamlit.
-
----
-## Tecnologias Utilizadas
-- **Python 3.10+**
-- **Azure Blob Storage**
-- **Azure Document Intelligence** (modelo *prebuilt-creditCard*)
-- **Streamlit**
-- **dotenv** para variáveis de ambiente
-
----
-## Estrutura do Projeto
-```
-dio-azureai-anti-fraude/
-├── README.md
-├── assets/
-│   ├── img_01.png
-│   ├── img_02.png
-├── DOCS/
-│   └── sobre.txt
-├── src/
-│   ├── app.py
-│   ├── requirements.txt
-│   ├── .env.example
-│   ├── services/
-│   │   ├── blob_service.py
-│   │   ├── credit_card_service.py
-│   │   └── typing_fix.py
-│   └── utils/
-│       └── config.py
-└── .gitignore
-```
----
 ## Como Funciona
 1. O usuário faz upload de uma imagem (PNG/JPG/JPEG).
 2. A imagem é enviada para o **Azure Blob Storage**.
@@ -158,7 +122,4 @@ As imagens abaixo foram extraídas automaticamente do arquivo `DIO.docx`:
 ## Licença
 Este projeto pode ser reutilizado livremente **para fins educacionais**.
 
----
-## Autor
-Projeto automatizado com apoio do **M365 Copilot**.
 
